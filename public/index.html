@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATM Interface</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to ATM</h1>
+      <p id="userInfo"></p>
+      <button id="logoutBtn">Logout</button>
+
+      <div class="atm-screen">
+
+        <div id="confirmClass" style="display: block">
+          <p id="message">Please insert your card.</p>
+          <input type="text" id="pinInput" placeholder="Enter PIN" disabled />
+          <button id="confirmBtn" disabled>Confirm</button>
+        </div>
+
+        <div id="confirmationOptions" style="display: none">
+          <p id="confirmationCode"></p>
+          <button id="acceptBtn">Accept</button>
+          <button id="declineBtn">Decline</button>
+        </div>
+
+        <div id="amountBtn" style="display: none">
+            <input type="number" id="amount" placeholder="Enter amount" />
+            <button type="submit" id="transBtn">comfirm</button>
+          </div>
+
+        <p id="balanceInfo"></p>
+      </div>
+      <a href="history.html" id="historyLink" style="display: none"
+        >View Transaction History</a
+      >
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

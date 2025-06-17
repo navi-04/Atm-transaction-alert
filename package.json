@@ -1,0 +1,14 @@
+{
+  "name": "atm-project",
+  "version": "1.0.0",
+  "description": "ATM Project with SMS Confirmation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "require": "^2.4.20",
+    "twilio": "^5.0.1"
+  }
+}

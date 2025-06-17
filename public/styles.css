@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #d1a3d7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(104, 78, 78, 0.2);
+    text-align: center;
+}
+
+.login-form {
+    margin-top: 20px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(194, 231, 218);
+    border: 1px solid #e9a9a9;
+    border-radius: 3px;
+}
+
+.atm-screen {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(194, 231, 218);
+    border: 1px solid #e89a9a;
+    border-radius: 3px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(204, 230, 221);
+    border: 1px solid #e49c9c;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #7491d4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #e99d9d;
+    cursor: not-allowed;
+}
+
+#confirmationOptions {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #9bdfed;
+}
+
+th {
+    background-color: #e89f9f;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #822424;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
